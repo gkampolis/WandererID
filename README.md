@@ -7,6 +7,8 @@ This work formed the basis of a postgraduate project at the Robert Gordon Univer
 
 A simple prototype utilizing the resulting classifier from this project and serving as a proof-of-concept is available here: [WandererPrototype](https://github.com/gkampolis/WandererPrototype).
 
+An introduction to the supplied data set is available in the `Codebook` folder. *If github is having problems with rendering the notebook, you can try [here](https://nbviewer.jupyter.org/github/gkampolis/WandererID/blob/master/Codebook/Codebook_EDA.ipynb).*
+
 ---
 
 Marine Scotland Science (MSS) collects samples of the microscopic marine animals known as zooplankton ("zoo" meaning animal and "plankton", meaning to wander/wanderer), with the data generated being used in monitoring trends of national (UK) and international importance. Classification of zooplankton is a time-consuming process leading to low sample throughput. A much quicker alternative is to scan samples and obtain measurements that will be classified via a machine learning system, enhancing the organization's ability to provide scientific advice on trends in the zooplankton communities in Scottish waters. This project serves as an early milestone in developing this approach and will aid MSS in evaluating the proposed process. 
@@ -17,7 +19,7 @@ Marine Scotland Science (MSS) collects samples of the microscopic marine animals
 
 The point of entry for the project is `Main.R`. It is assumed that this will be accessed by launching RStudio via double-clicking the `WanderedID.Rproj` from the project root, for automatically detecting the workspace root directory. This is important as all paths are constructed in a relative manner. Of course if setting the workspace directory manually, then the above is moot.
 
-Package requirements are handled in the `Scripts\loadPackages.R` via `pacman`.
+Package requirements are handled in the `Scripts/loadPackages.R` via `pacman`.
 
 Please note that sourcing this script is a a lengthy affair, due to the time needed for training. A more practical way of working with this script would be to step-through the `Main.R` and taking advantage of the simple flag system implemented at the top, to only run the needed sections.
 
