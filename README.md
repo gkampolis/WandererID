@@ -3,7 +3,7 @@ An open source solution for automatic zooplankton classification using `R`, deve
 
 This work formed the basis of a postgraduate project at the Robert Gordon University. The full report explaining the rationale for each choice made and what other alternatives are available (methodology), along with an introduction to the domain of application and a thorough discussion of results is available here: 
 
-[*Kampolis, G., 2019. Automated zooplankton classification: Project Report, Aberdeen: Robert Gordon University*](https://www.gkampolis.com/MScReport/gkampolisAutomatedZooplanktonClassification.pdf).
+[*Kampolis, G., 2019. Automated zooplankton classification: Project Report, Aberdeen: Robert Gordon University*](http://j.mp/gkampolisMSc).
 
 A simple prototype utilizing the resulting classifier from this project and serving as a proof-of-concept is available here: [WandererPrototype](https://github.com/gkampolis/WandererPrototype).
 
